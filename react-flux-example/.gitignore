@@ -1,0 +1,6 @@
+node_modules
+.idea
+dist
+github_personal
+github_personal.pub
+bower_components
