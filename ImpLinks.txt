@@ -1,7 +1,37 @@
+# what is material design
 https://material.io/guidelines/material-design/introduction.html#introduction-principles
 https://material.io/icons/
 
+# for forms/textboxes/dropdowns
 https://react.rocks/tag/CSSFramework
 https://react.rocks/example/react-toolbox
+
+# for react layout
+https://github.com/tomkp/react-layout-pane
+
+# HTML encoding
+https://www.w3schools.com/tags/ref_urlencode.asp
+
+# how to setup node behind proxy 
+https://jjasonclark.com/how-to-setup-node-behind-web-proxy/
+
+# Express  & Mongodb example
+https://closebrace.com/tutorials/2017-03-02/creating-a-simple-restful-web-app-with-nodejs-express-and-mongodb
+
+# what is Promise / Callback diff
+https://github.com/KjellSchubert/promise-future-task
+
+# JS modular
+http://requirejs.org/docs/commonjs.html
+
+# complete guid to flex box
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+# learn css layout
+http://learnlayout.com/
+
+# React router doc
+http://knowbody.github.io/react-router-docs/
+
 
 
