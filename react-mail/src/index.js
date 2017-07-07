@@ -1,7 +1,9 @@
+import React from "react"
 import ReactDOM from "react-dom";
-import Routes from "./routes";
+import Home from "./components/home"
 
 ReactDOM.render(
-    Routes,
+    <Home/>,
     document.getElementById('app')
 );
+
