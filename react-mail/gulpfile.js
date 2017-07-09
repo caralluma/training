@@ -64,7 +64,7 @@ gulp.task('html', function () {
 });
 
 gulp.task('scripts', function () {
-    browserify('./src/index.js', {debug: true})
+    browserify('./src/index.js', {debug: false})
         .transform(babelify.configure({
             presets: ["es2015", "react", "stage-0"],
             plugins: ["css-modules-transform", {
