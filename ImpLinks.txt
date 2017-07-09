@@ -33,5 +33,33 @@ http://learnlayout.com/
 # React router doc
 http://knowbody.github.io/react-router-docs/
 
+# Babel css modules plugin
+https://www.npmjs.com/package/babel-plugin-css-modules-transform
+
+# Babel react css modules plugin
+https://www.npmjs.com/package/babel-plugin-css-modules-transform
+
+# Introduction to webpack
+https://blog.scalac.io/2016/03/03/introduction-to-webpack-with-es2015-and-react.html
+
+# css evolution
+https://m.alphasights.com/css-evolution-from-css-sass-bem-css-modules-to-styled-components-d4c1da3a659b
+
+# css modules
+https://x-team.com/blog/css-modules-a-new-way-to-css/
+https://css-tricks.com/css-modules-part-2-getting-started/
+
+# webpack intro
+https://blog.madewithenvy.com/getting-started-with-webpack-2-ed2b86c68783
+
+# ES6 tutorial
+http://exploringjs.com/es6/
+
+Javascript tutorial
+http://www.javascripture.com/Array
+
+#intergrating gulp with react & sass
+https://jonsuh.com/blog/integrating-react-with-gulp/
+
 
 
