@@ -33,6 +33,7 @@ http://learnlayout.com/
 # React router doc
 http://knowbody.github.io/react-router-docs/
 
+<<<<<<< Updated upstream
 # Babel css modules plugin
 https://www.npmjs.com/package/babel-plugin-css-modules-transform
 
@@ -61,5 +62,17 @@ http://www.javascripture.com/Array
 #intergrating gulp with react & sass
 https://jonsuh.com/blog/integrating-react-with-gulp/
 
+=======
+# Web component
+https://developer.mozilla.org/en-US/docs/Web
+>>>>>>> Stashed changes
 
+# why browserify
+https://stackoverflow.com/questions/19059580/client-on-node-uncaught-referenceerror-require-is-not-defined
+
+# Git warnings about Line Feed
+https://stackoverflow.com/questions/5834014/lf-will-be-replaced-by-crlf-in-git-what-is-that-and-is-it-important
+
+# What is isomorphic
+https://www.lullabot.com/articles/what-is-an-isomorphic-application
 
