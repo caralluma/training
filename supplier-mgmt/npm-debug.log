@@ -1,0 +1,453 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData react
+20 silly mapToRegistry name react
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'react',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'react',
+23 silly mapToRegistry   name: 'react',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/react
+25 silly fetchNamedPackageData react-dom
+26 silly mapToRegistry name react-dom
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'react-dom',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'react-dom',
+29 silly mapToRegistry   name: 'react-dom',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+31 silly fetchNamedPackageData react-layout-pane
+32 silly mapToRegistry name react-layout-pane
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'react-layout-pane',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'react-layout-pane',
+35 silly mapToRegistry   name: 'react-layout-pane',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/react-layout-pane
+37 silly fetchNamedPackageData react-router-dom
+38 silly mapToRegistry name react-router-dom
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'react-router-dom',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'react-router-dom',
+41 silly mapToRegistry   name: 'react-router-dom',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/react-router-dom
+43 verbose request uri https://registry.npmjs.org/react-layout-pane
+44 verbose request no auth needed
+45 info attempt registry request try #1 at 2:47:20 PM
+46 verbose request id 16c512c6f0808e84
+47 http request GET https://registry.npmjs.org/react-layout-pane
+48 verbose request uri https://registry.npmjs.org/react-router-dom
+49 verbose request no auth needed
+50 info attempt registry request try #1 at 2:47:20 PM
+51 http request GET https://registry.npmjs.org/react-router-dom
+52 verbose request uri https://registry.npmjs.org/react
+53 verbose request no auth needed
+54 info attempt registry request try #1 at 2:47:20 PM
+55 verbose etag W/"596236d7-2c4aa"
+56 verbose lastModified Sun, 09 Jul 2017 13:59:51 GMT
+57 http request GET https://registry.npmjs.org/react
+58 verbose request uri https://registry.npmjs.org/react-dom
+59 verbose request no auth needed
+60 info attempt registry request try #1 at 2:47:20 PM
+61 verbose etag W/"595afe9d-1a8dd"
+62 verbose lastModified Tue, 04 Jul 2017 02:34:05 GMT
+63 http request GET https://registry.npmjs.org/react-dom
+64 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND ps00373572 ps00373572:80
+65 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND ps00373572 ps00373572:80
+66 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND ps00373572 ps00373572:80
+67 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND ps00373572 ps00373572:80
+68 info attempt registry request try #2 at 2:47:32 PM
+69 http request GET https://registry.npmjs.org/react-layout-pane
+70 info attempt registry request try #2 at 2:47:32 PM
+71 http request GET https://registry.npmjs.org/react-router-dom
+72 info attempt registry request try #2 at 2:47:32 PM
+73 verbose etag W/"596236d7-2c4aa"
+74 verbose lastModified Sun, 09 Jul 2017 13:59:51 GMT
+75 http request GET https://registry.npmjs.org/react
+76 info attempt registry request try #2 at 2:47:32 PM
+77 verbose etag W/"595afe9d-1a8dd"
+78 verbose lastModified Tue, 04 Jul 2017 02:34:05 GMT
+79 http request GET https://registry.npmjs.org/react-dom
+80 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND ps00373572 ps00373572:80
+81 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND ps00373572 ps00373572:80
+82 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND ps00373572 ps00373572:80
+83 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND ps00373572 ps00373572:80
+84 info attempt registry request try #3 at 2:48:34 PM
+85 http request GET https://registry.npmjs.org/react-layout-pane
+86 info attempt registry request try #3 at 2:48:34 PM
+87 verbose etag W/"596236d7-2c4aa"
+88 verbose lastModified Sun, 09 Jul 2017 13:59:51 GMT
+89 http request GET https://registry.npmjs.org/react
+90 info attempt registry request try #3 at 2:48:34 PM
+91 http request GET https://registry.npmjs.org/react-router-dom
+92 info attempt registry request try #3 at 2:48:34 PM
+93 verbose etag W/"595afe9d-1a8dd"
+94 verbose lastModified Tue, 04 Jul 2017 02:34:05 GMT
+95 http request GET https://registry.npmjs.org/react-dom
+96 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND ps00373572 ps00373572:80
+96 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+96 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+96 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+96 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+96 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+96 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+96 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+96 silly fetchPackageMetaData     at connectErrorNT (net.js:1021:8)
+96 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+96 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+96 silly fetchPackageMetaData  error for react-layout-pane@^0.1.16 { Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND ps00373572 ps00373572:80
+96 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+96 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+96 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+96 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+96 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+96 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+96 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+96 silly fetchPackageMetaData     at connectErrorNT (net.js:1021:8)
+96 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+96 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+97 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND ps00373572 ps00373572:80
+97 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+97 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+97 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+97 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+97 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+97 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+97 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+97 silly fetchPackageMetaData     at connectErrorNT (net.js:1021:8)
+97 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+97 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+97 silly fetchPackageMetaData  error for react-router-dom@^4.1.1 { Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND ps00373572 ps00373572:80
+97 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+97 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+97 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+97 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+97 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+97 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+97 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+97 silly fetchPackageMetaData     at connectErrorNT (net.js:1021:8)
+97 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+97 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+98 silly get cb [ 304, undefined ]
+99 verbose etag https://registry.npmjs.org/react from cache
+100 verbose get saving react to C:\Users\mslc\AppData\Roaming\npm-cache\registry.npmjs.org\react\.cache.json
+101 verbose correctMkdir C:\Users\mslc\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+102 silly get cb [ 304, undefined ]
+103 verbose etag https://registry.npmjs.org/react-dom from cache
+104 verbose get saving react-dom to C:\Users\mslc\AppData\Roaming\npm-cache\registry.npmjs.org\react-dom\.cache.json
+105 verbose correctMkdir C:\Users\mslc\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+106 silly resolveWithNewModule react@15.6.1 checking installable status
+107 silly cache add args [ 'react@^15.6.1', null ]
+108 verbose cache add spec react@^15.6.1
+109 silly cache add parsed spec Result {
+109 silly cache add   raw: 'react@^15.6.1',
+109 silly cache add   scope: null,
+109 silly cache add   escapedName: 'react',
+109 silly cache add   name: 'react',
+109 silly cache add   rawSpec: '^15.6.1',
+109 silly cache add   spec: '>=15.6.1 <16.0.0',
+109 silly cache add   type: 'range' }
+110 silly addNamed react@>=15.6.1 <16.0.0
+111 verbose addNamed ">=15.6.1 <16.0.0" is a valid semver range for react
+112 silly addNameRange { name: 'react', range: '>=15.6.1 <16.0.0', hasData: false }
+113 silly mapToRegistry name react
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry data Result {
+116 silly mapToRegistry   raw: 'react',
+116 silly mapToRegistry   scope: null,
+116 silly mapToRegistry   escapedName: 'react',
+116 silly mapToRegistry   name: 'react',
+116 silly mapToRegistry   rawSpec: '',
+116 silly mapToRegistry   spec: 'latest',
+116 silly mapToRegistry   type: 'tag' }
+117 silly mapToRegistry uri https://registry.npmjs.org/react
+118 verbose addNameRange registry:https://registry.npmjs.org/react not in flight; fetching
+119 silly resolveWithNewModule react-dom@15.6.1 checking installable status
+120 silly cache add args [ 'react-dom@^15.6.1', null ]
+121 verbose cache add spec react-dom@^15.6.1
+122 silly cache add parsed spec Result {
+122 silly cache add   raw: 'react-dom@^15.6.1',
+122 silly cache add   scope: null,
+122 silly cache add   escapedName: 'react-dom',
+122 silly cache add   name: 'react-dom',
+122 silly cache add   rawSpec: '^15.6.1',
+122 silly cache add   spec: '>=15.6.1 <16.0.0',
+122 silly cache add   type: 'range' }
+123 silly addNamed react-dom@>=15.6.1 <16.0.0
+124 verbose addNamed ">=15.6.1 <16.0.0" is a valid semver range for react-dom
+125 silly addNameRange { name: 'react-dom', range: '>=15.6.1 <16.0.0', hasData: false }
+126 silly mapToRegistry name react-dom
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npmjs.org/
+129 silly mapToRegistry data Result {
+129 silly mapToRegistry   raw: 'react-dom',
+129 silly mapToRegistry   scope: null,
+129 silly mapToRegistry   escapedName: 'react-dom',
+129 silly mapToRegistry   name: 'react-dom',
+129 silly mapToRegistry   rawSpec: '',
+129 silly mapToRegistry   spec: 'latest',
+129 silly mapToRegistry   type: 'tag' }
+130 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+131 verbose addNameRange registry:https://registry.npmjs.org/react-dom not in flight; fetching
+132 verbose get https://registry.npmjs.org/react not expired, no request
+133 silly addNameRange number 2 { name: 'react', range: '>=15.6.1 <16.0.0', hasData: true }
+134 silly addNameRange versions [ 'react',
+134 silly addNameRange   [ '0.0.1',
+134 silly addNameRange     '0.0.2',
+134 silly addNameRange     '0.0.3',
+134 silly addNameRange     '0.1.2',
+134 silly addNameRange     '0.2.0',
+134 silly addNameRange     '0.2.1',
+134 silly addNameRange     '0.2.2',
+134 silly addNameRange     '0.2.3',
+134 silly addNameRange     '0.2.4',
+134 silly addNameRange     '0.2.5',
+134 silly addNameRange     '0.2.6',
+134 silly addNameRange     '0.3.0',
+134 silly addNameRange     '0.3.4',
+134 silly addNameRange     '0.3.5',
+134 silly addNameRange     '0.5.0',
+134 silly addNameRange     '0.5.1',
+134 silly addNameRange     '0.5.2',
+134 silly addNameRange     '0.6.0',
+134 silly addNameRange     '0.6.1',
+134 silly addNameRange     '0.6.2',
+134 silly addNameRange     '0.6.3',
+134 silly addNameRange     '0.7.0',
+134 silly addNameRange     '0.7.1',
+134 silly addNameRange     '0.8.0',
+134 silly addNameRange     '0.9.0-rc1',
+134 silly addNameRange     '0.9.0',
+134 silly addNameRange     '0.10.0-rc1',
+134 silly addNameRange     '0.10.0',
+134 silly addNameRange     '0.11.0-rc1',
+134 silly addNameRange     '0.11.0',
+134 silly addNameRange     '0.11.1',
+134 silly addNameRange     '0.11.2',
+134 silly addNameRange     '0.12.0-rc1',
+134 silly addNameRange     '0.12.0',
+134 silly addNameRange     '0.12.1',
+134 silly addNameRange     '0.12.2',
+134 silly addNameRange     '0.13.0-alpha.1',
+134 silly addNameRange     '0.13.0-alpha.2',
+134 silly addNameRange     '0.13.0-beta.1',
+134 silly addNameRange     '0.13.0-beta.2',
+134 silly addNameRange     '0.13.0-rc1',
+134 silly addNameRange     '0.13.0-rc2',
+134 silly addNameRange     '0.13.0',
+134 silly addNameRange     '0.13.1',
+134 silly addNameRange     '0.13.2',
+134 silly addNameRange     '0.13.3',
+134 silly addNameRange     '0.14.0-alpha1',
+134 silly addNameRange     '0.14.0-alpha2',
+134 silly addNameRange     '0.14.0-alpha3',
+134 silly addNameRange     '0.14.0-beta1',
+134 silly addNameRange     '0.14.0-beta2',
+134 silly addNameRange     '0.14.0-beta3',
+134 silly addNameRange     '0.14.0-rc1',
+134 silly addNameRange     '0.14.0',
+134 silly addNameRange     '0.14.1',
+134 silly addNameRange     '0.14.2',
+134 silly addNameRange     '0.14.3',
+134 silly addNameRange     '0.14.4',
+134 silly addNameRange     '0.14.5',
+134 silly addNameRange     '0.14.6',
+134 silly addNameRange     '0.15.0-alpha.1',
+134 silly addNameRange     '0.14.7',
+134 silly addNameRange     '15.0.0-rc.1',
+134 silly addNameRange     '15.0.0-rc.2',
+134 silly addNameRange     '0.14.8',
+134 silly addNameRange     '15.0.0',
+134 silly addNameRange     '15.0.1',
+134 silly addNameRange     '15.0.2-alpha.1',
+134 silly addNameRange     '15.0.2-alpha.2',
+134 silly addNameRange     '15.0.2-alpha.3',
+134 silly addNameRange     '15.0.2-alpha.4',
+134 silly addNameRange     '15.0.2',
+134 silly addNameRange     '15.0.3-alpha.1',
+134 silly addNameRange     '15.0.3-alpha.2',
+134 silly addNameRange     '15.1.0-alpha.1',
+134 silly addNameRange     '15.1.0',
+134 silly addNameRange     '15.2.0-rc.1',
+134 silly addNameRange     '15.2.0-rc.2',
+134 silly addNameRange     '15.2.0',
+134 silly addNameRange     '15.2.1',
+134 silly addNameRange     '15.3.0-rc.1',
+134 silly addNameRange     '15.3.0-rc.2',
+134 silly addNameRange     '15.3.0-rc.3',
+134 silly addNameRange     '15.3.0',
+134 silly addNameRange     '15.3.1-rc.1',
+134 silly addNameRange     '15.3.1-rc.2',
+134 silly addNameRange     '15.3.1',
+134 silly addNameRange     '15.3.2-rc.1',
+134 silly addNameRange     '15.3.2',
+134 silly addNameRange     '15.4.0-rc.1',
+134 silly addNameRange     '15.4.0-rc.2',
+134 silly addNameRange     '15.4.0-rc.3',
+134 silly addNameRange     '15.4.0-rc.4',
+134 silly addNameRange     '15.4.0',
+134 silly addNameRange     '15.4.1',
+134 silly addNameRange     '15.4.2',
+134 silly addNameRange     '16.0.0-alpha',
+134 silly addNameRange     '16.0.0-alpha.0',
+134 silly addNameRange     '16.0.0-alpha.2',
+134 silly addNameRange     '16.0.0-alpha.3',
+134 silly addNameRange     ... 21 more items ] ]
+135 silly addNamed react@15.6.1
+136 verbose addNamed "15.6.1" is a plain semver version for react
+137 verbose get https://registry.npmjs.org/react-dom not expired, no request
+138 silly addNameRange number 2 { name: 'react-dom', range: '>=15.6.1 <16.0.0', hasData: true }
+139 silly addNameRange versions [ 'react-dom',
+139 silly addNameRange   [ '0.1.0',
+139 silly addNameRange     '0.14.0-beta1',
+139 silly addNameRange     '0.14.0-beta2',
+139 silly addNameRange     '0.14.0-beta3',
+139 silly addNameRange     '0.14.0-rc1',
+139 silly addNameRange     '0.14.0',
+139 silly addNameRange     '0.14.1',
+139 silly addNameRange     '0.14.2',
+139 silly addNameRange     '0.14.3',
+139 silly addNameRange     '0.14.4',
+139 silly addNameRange     '0.14.5',
+139 silly addNameRange     '0.14.6',
+139 silly addNameRange     '0.15.0-alpha.1',
+139 silly addNameRange     '0.14.7',
+139 silly addNameRange     '15.0.0-rc.1',
+139 silly addNameRange     '15.0.0-rc.2',
+139 silly addNameRange     '0.14.8',
+139 silly addNameRange     '15.0.0',
+139 silly addNameRange     '15.0.1',
+139 silly addNameRange     '15.0.2-alpha.1',
+139 silly addNameRange     '15.0.2-alpha.2',
+139 silly addNameRange     '15.0.2-alpha.3',
+139 silly addNameRange     '15.0.2-alpha.4',
+139 silly addNameRange     '15.0.2',
+139 silly addNameRange     '15.0.3-alpha.1',
+139 silly addNameRange     '15.0.3-alpha.2',
+139 silly addNameRange     '15.1.0-alpha.1',
+139 silly addNameRange     '15.1.0',
+139 silly addNameRange     '15.2.0-rc.1',
+139 silly addNameRange     '15.2.0-rc.2',
+139 silly addNameRange     '15.2.0',
+139 silly addNameRange     '15.2.1',
+139 silly addNameRange     '15.3.0-rc.1',
+139 silly addNameRange     '15.3.0-rc.2',
+139 silly addNameRange     '15.3.0-rc.3',
+139 silly addNameRange     '15.3.0',
+139 silly addNameRange     '15.3.1-rc.1',
+139 silly addNameRange     '15.3.1-rc.2',
+139 silly addNameRange     '15.3.1',
+139 silly addNameRange     '15.3.2-rc.1',
+139 silly addNameRange     '15.3.2',
+139 silly addNameRange     '15.4.0-rc.1',
+139 silly addNameRange     '15.4.0-rc.2',
+139 silly addNameRange     '15.4.0-rc.3',
+139 silly addNameRange     '15.4.0-rc.4',
+139 silly addNameRange     '15.4.0',
+139 silly addNameRange     '15.4.1',
+139 silly addNameRange     '15.4.2',
+139 silly addNameRange     '16.0.0-alpha',
+139 silly addNameRange     '16.0.0-alpha.0',
+139 silly addNameRange     '16.0.0-alpha.2',
+139 silly addNameRange     '16.0.0-alpha.3',
+139 silly addNameRange     '16.0.0-alpha.4',
+139 silly addNameRange     '16.0.0-alpha.5',
+139 silly addNameRange     '16.0.0-alpha.6',
+139 silly addNameRange     '15.5.0-rc.1',
+139 silly addNameRange     '16.0.0-alpha.7',
+139 silly addNameRange     '15.5.0-rc.2',
+139 silly addNameRange     '16.0.0-alpha.8',
+139 silly addNameRange     '15.5.0',
+139 silly addNameRange     '15.5.1',
+139 silly addNameRange     '15.5.2',
+139 silly addNameRange     '15.5.3',
+139 silly addNameRange     '15.5.4',
+139 silly addNameRange     '16.0.0-alpha.9',
+139 silly addNameRange     '0.14.9',
+139 silly addNameRange     '16.0.0-alpha.10',
+139 silly addNameRange     '16.0.0-alpha.11',
+139 silly addNameRange     '16.0.0-alpha.12',
+139 silly addNameRange     '15.6.0-rc.1',
+139 silly addNameRange     '16.0.0-alpha.13',
+139 silly addNameRange     '15.6.0',
+139 silly addNameRange     '15.6.1' ] ]
+140 silly addNamed react-dom@15.6.1
+141 verbose addNamed "15.6.1" is a plain semver version for react-dom
+142 silly cache afterAdd react@15.6.1
+143 verbose afterAdd C:\Users\mslc\AppData\Roaming\npm-cache\react\15.6.1\package\package.json not in flight; writing
+144 verbose correctMkdir C:\Users\mslc\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+145 silly cache afterAdd react-dom@15.6.1
+146 verbose afterAdd C:\Users\mslc\AppData\Roaming\npm-cache\react-dom\15.6.1\package\package.json not in flight; writing
+147 verbose correctMkdir C:\Users\mslc\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+148 verbose afterAdd C:\Users\mslc\AppData\Roaming\npm-cache\react\15.6.1\package\package.json written
+149 verbose afterAdd C:\Users\mslc\AppData\Roaming\npm-cache\react-dom\15.6.1\package\package.json written
+150 silly rollbackFailedOptional Starting
+151 silly rollbackFailedOptional Finishing
+152 silly runTopLevelLifecycles Finishing
+153 silly install printInstalled
+154 verbose stack Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND ps00373572 ps00373572:80
+154 verbose stack     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+154 verbose stack     at ClientRequest.g (events.js:292:16)
+154 verbose stack     at emitOne (events.js:96:13)
+154 verbose stack     at ClientRequest.emit (events.js:188:7)
+154 verbose stack     at Socket.socketErrorListener (_http_client.js:309:9)
+154 verbose stack     at emitOne (events.js:96:13)
+154 verbose stack     at Socket.emit (events.js:188:7)
+154 verbose stack     at connectErrorNT (net.js:1021:8)
+154 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+154 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
+155 verbose cwd C:\work\projects\training\react-mail
+156 error Windows_NT 6.1.7601
+157 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+158 error node v6.10.3
+159 error npm  v3.10.10
+160 error code ECONNRESET
+161 error network tunneling socket could not be established, cause=getaddrinfo ENOTFOUND ps00373572 ps00373572:80
+162 error network This is most likely not a problem with npm itself
+162 error network and is related to network connectivity.
+162 error network In most cases you are behind a proxy or have bad network settings.
+162 error network
+162 error network If you are behind a proxy, please make sure that the
+162 error network 'proxy' config is set properly.  See: 'npm help config'
+163 verbose exit [ 1, true ]
