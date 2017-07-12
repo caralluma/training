@@ -1,0 +1,65 @@
+alias=cat C:\work\alias $*
+grep=grep --color $*
+ll=ls -hal --color=auto $* 
+ps=tasklist $*
+kill=taskkill /F /IM $*
+open=explorer $*
+o=explorer .
+merge=svnmerge merge -s -v -S trunk/cedi -r $*
+st=-Dmaven.test.skip=true
+bumpup=mvn versions:set -DgenerateBackupPoms=false -DnewVersion=$*
+host=cat C:\Windows\System32\drivers\etc\hosts $*
+mvnst=mvn %st% $*
+bdd=mvn test-compile test -Dtest=$*
+mc=mvn clean
+mci=mvn clean install
+mcist=mvn clean install %st%
+mi=mvn install
+commit=git commit -m "$*
+show=git log -n $*
+man=explorer http://ss64.com/bash/$*.html
+nobody=find . -user nobody -name '*.*' -exec rm -fv {} +
+cleanup=find . -name '*.*' -exec rm -fv {} +
+xargs=find . -name "*.rpt" | xargs grep "ST\*277" -l
+esdoc-json=echo {"source": "./src", "destination": "./doc"} > .esdoc.json
+lt=lt -I "node_modules" $*
+n=npm $*
+ni=npm install $*
+clear=cls $*
+claer=cls
+clar=cls
+cler=cls
+whereis=whereis $* && cat C:\work\alias | grep $*=
+ws=C:\work\WebStorm-2017.1.4\bin\webstorm $*
+n=npm $*
+ni=npm install $*
+#commit=git commit -m "$*
+commit=echo %date%-%time%:  COMMIT - $* >> .notes && git commit -m "$*
+notes=echo %date%-%time%:  $* >> .notes
+delete-notes=rm .notes -rf 
+commit=echo %date%-%time%:  COMMIT - $* >> .notes && git commit -m "$*
+cm=echo %date%-%time%:  COMMIT - $* >> .notes && git commit -m "$*
+tracked-files=git ls-tree -r master --name-only $*
+add=git add $*
+status=git status $*
+st=git status $*
+branch=git branch $*
+update=git fetch origin && git rebase --autostash
+up=git fetch origin && git rebase --autostash
+checkout=git checkout $*
+co=git checkout $*
+branch=git branch $*
+br=git branch $*
+push=git push $*
+log=git log -n $*
+show=git show -n $*
+squash=git squash $*
+sq=git squash $*
+merge=git merge $*
+update-user=git config --global user.name "$1" && git config --global user.email "$2"
+get-user=git config --global user.name && git config --global user.email
+XXcommit=svn commit --file svnmerge-commit-message.txt
+XXshow=svn log -l $* 
+XXupdate=svn up .
+XXrevert=svn st | awk "{print $2;}" | xargs rm -rf && svn revert . 
+rm=rm -rf $*
