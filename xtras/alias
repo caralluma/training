@@ -63,3 +63,4 @@ XXshow=svn log -l $*
 XXupdate=svn up .
 XXrevert=svn st | awk "{print $2;}" | xargs rm -rf && svn revert . 
 rm=rm -rf $*
+cp=zp -rf $*

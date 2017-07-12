@@ -7,6 +7,7 @@ module.exports = {
   context: __dirname,
   devtool: 'inline-source-map',
   entry: [
+    'webpack-dev-server/client?http://0.0.0.0:80',
     'webpack-hot-middleware/client',
     './app/client.js'
   ],
