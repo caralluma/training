@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Button } from 'react-toolbox/lib/button';
-import NewTaskDialog from '../NewTaskDialog';
-import PurpleAppBar from '../PurpleAppBar';
-import AddButton from '../AddButton';
-import TodoList from '../TodoList';
+import NewTaskDialog from '../NewTaskDialog/index';
+import AppHeader from '../AppHeader/index';
+import AddButton from '../AddButton/index';
+import ItemList from '../ItemList/index';
 
 class Main extends Component {
   static propTypes = {
@@ -63,14 +63,14 @@ class Main extends Component {
     const { content, error } = this.props;
     return (
       <div>
-        <PurpleAppBar >
-          Sunil
-        </PurpleAppBar>
+        <AppHeader >
+          Retail Supplier Management
+        </AppHeader>
         <section style={{ padding: 20 }}>
           <AddButton label='Add Task' icon="add" primary raised onClick={this.props.onAddButtonClick()} />
           &nbsp;
           <Button label='Delete Done' icon="delete" onClick={() => this.handleClear()} />
-          <TodoList
+          <ItemList
             tasks={this.state.tasks}
             content={content}
             onChecked={(index, check) => this.handleChange(index, check)}

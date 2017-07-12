@@ -5,7 +5,7 @@ const settings = {
   entry: {
     bundle: [
       "react-hot-loader/patch",
-      "./src/frontend/index.js"
+      "./src/client/index.js"
     ]
   },
   output: {
@@ -58,8 +58,10 @@ const settings = {
     ]
   },
   devServer: {
-    contentBase: path.resolve("src/www"),
-    publicPath: "http://localhost:8080/", // full URL is necessary for Hot Module Replacement if additional path will be added.
+   // host: '0.0.0.0',
+    port: 9095,
+    contentBase: path.resolve("src/client"),
+    publicPath: "http://localhost:9095/", // full URL is necessary for Hot Module Replacement if additional path will be added.
     quiet: false,
     hot: true,
     historyApiFallback: true,

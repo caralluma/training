@@ -4,16 +4,16 @@ import { AppBar } from 'react-toolbox/lib/app_bar';
 import Logo from '../Logo';
 import theme from './PurpleAppBar.css';
 
-const PurpleAppBar = ({ children, ...other }) => (
+const AppHeader = ({ children, ...other }) => (
   <AppBar {...other} theme={theme}>
     <Logo />
     {children}
   </AppBar>
 );
 
-PurpleAppBar.propTypes = {
-  children: PropTypes.node
+AppHeader.propTypes = {
+    children: PropTypes.node
 };
 
-export default PurpleAppBar;
+export default AppHeader;
 

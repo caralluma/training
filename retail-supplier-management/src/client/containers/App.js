@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { showDialog, hideDialog } from '../actions/DialogActions';
 import { getTasks, addTask, checkTask, clearTasks } from '../actions/TaskActions';
-import Main from '../components/Main';
+import Main from '../components/SupplierHome/index';
 
 function mapStateToProps (state) {
   return {

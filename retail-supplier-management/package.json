@@ -1,10 +1,10 @@
 {
-  "name": "react-toolbox-example",
-  "description": "Example of React+Redux TODO app with React Toolbox 2",
+  "name": "retail-supplier-management",
+  "description": "Retail Supplier Mgmt - using react, redux, react-toolbox, webpack",
   "version": "1.0.0",
   "author": {
-    "name": "Alexey Vinokurov",
-    "url": "http://github.com/alwinn1977"
+    "name": "Sunil Prabhu",
+    "url": "http://github.com/imsunilprabhu"
   },
   "engines": {
     "node": ">=4.3.0",
@@ -53,7 +53,7 @@
     "webpack-dev-server": "^2.2.0"
   },
   "scripts": {
-    "start": "concurrently --kill-others \"cross-env.cmd NODE_ENV=development webpack-dev-server --colors --config webpack.config.js\" \"node src/backend/server.js\"",
+    "start": "concurrently --kill-others \"cross-env.cmd NODE_ENV=development webpack-dev-server --colors --config webpack.config.js\" \"node src/server/server.js\"",
     "build": "cross-env NODE_ENV=production UV_THREADPOOL_SIZE=100 webpack --config webpack.config.js"
   },
   "license": "MIT"
