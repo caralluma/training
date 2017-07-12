@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Button } from 'react-toolbox/lib/button';
-import NewTaskDialog from '../NewTaskDialog/index';
+import NewTaskDialog from './NewTaskDialog/index';
 import AppHeader from '../AppHeader/index';
 import AddButton from '../AddButton/index';
-import ItemList from '../ItemList/index';
+import ItemList from './ItemList/index';
 
 class Main extends Component {
   static propTypes = {
