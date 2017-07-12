@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { AppBar } from 'react-toolbox/lib/app_bar';
 import Logo from '../Logo';
-import theme from './PurpleAppBar.css';
+import appHeaderStyles from './appHeader.css';
 
 const AppHeader = ({ children, ...other }) => (
-  <AppBar {...other} theme={theme}>
+  <AppBar {...other} theme={appHeaderStyles}>
     <Logo />
     {children}
   </AppBar>
