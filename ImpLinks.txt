@@ -61,5 +61,20 @@ http://www.javascripture.com/Array
 #intergrating gulp with react & sass
 https://jonsuh.com/blog/integrating-react-with-gulp/
 
+# React themes
+https://startreact.com/
+
+# webpack port configuration
+https://stackoverflow.com/questions/33272967/how-to-make-the-webpack-dev-server-run-on-port-80-and-on-0-0-0-0-to-make-it-publ
+
+# login app
+https://scotch.io/tutorials/build-a-react-flux-app-with-user-authentication
+
+# Redux - data flow
+https://www.quora.com/How-do-I-create-a-basic-login-signup-app-using-React-Redux-and-React-Router
+
+# Redux - dev tools
+https://github.com/gaearon/redux-devtools
+
 
 
