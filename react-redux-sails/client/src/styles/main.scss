@@ -1,0 +1,21 @@
+@import "variables";
+html {
+  font-size: 0.6rem;
+}
+body {
+  font: 15px/18px 'Roboto', arial;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+.active {
+  border-bottom: 1px solid green;
+  > button {
+    border-bottom: 1px solid green;
+
+  }
+}
+
+@import "custom";
