@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import AppHeader from '../AppHeader';
+import AppHeader from '../Common/AppHeader';
 import Sidebar from './SideNav';
 import Main from './content';
 import {Layout, Flex, Fixed} from 'react-layout-pane';
@@ -12,7 +12,7 @@ class SupplierHome extends Component {
             <BrowserRouter>
                 <Layout type='column'>
                     <Fixed className={layoutStyles.header}><AppHeader>
-                        Supplier Management
+                        <h3>Supplier Management</h3>
                     </AppHeader></Fixed>
                     <Flex>
                         <Layout type="row">
